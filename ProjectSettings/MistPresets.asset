@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist.Editor:SlaydGames.Mist.Editor:MistPresetLibrary
+  presets:
+  - name: Morning mist
+    height: 1.5
+    lift: -0.3
+    color: {r: 0.92, g: 0.95, b: 1, a: 1}
+    density: 0.45
+    softness: 0.6
+    falloff: 0.7
+    glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+    glowStrength: 0
+    groundLight: 0
+    noise: 0.6
+    noiseScale: 3
+    speed: 0.3
+    direction: 60
+    rise: 0.02
+    churn: 0.2
+  - name: Fog bank
+    height: 4
+    lift: -0.3
+    color: {r: 0.86, g: 0.88, b: 0.9, a: 1}
+    density: 2.2
+    softness: 0.65
+    falloff: 0.4
+    glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+    glowStrength: 0
+    groundLight: 0
+    noise: 0.5
+    noiseScale: 5
+    speed: 0.25
+    direction: 60
+    rise: 0
+    churn: 0.15
+  - name: Swamp fog
+    height: 1.2
+    lift: -0.4
+    color: {r: 0.62, g: 0.74, b: 0.55, a: 1}
+    density: 1.2
+    softness: 0.5
+    falloff: 0.75
+    glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+    glowStrength: 0
+    groundLight: 0
+    noise: 0.75
+    noiseScale: 2
+    speed: 0.2
+    direction: 60
+    rise: 0.03
+    churn: 0.5
+  - name: Toxic glow
+    height: 1.8
+    lift: -0.3
+    color: {r: 0.45, g: 0.95, b: 0.35, a: 1}
+    density: 0.9
+    softness: 0.5
+    falloff: 0.6
+    glowColor: {r: 0.35, g: 1, b: 0.25, a: 1}
+    glowStrength: 3
+    groundLight: 4
+    noise: 0.8
+    noiseScale: 2
+    speed: 0.6
+    direction: 60
+    rise: 0.15
+    churn: 0.8
+  - name: Violet haze
+    height: 2.5
+    lift: -0.2
+    color: {r: 0.75, g: 0.58, b: 1, a: 1}
+    density: 0.7
+    softness: 0.6
+    falloff: 0.55
+    glowColor: {r: 0.7, g: 0.42, b: 1, a: 1}
+    glowStrength: 2
+    groundLight: 3
+    noise: 0.65
+    noiseScale: 3
+    speed: 0.35
+    direction: 60
+    rise: 0.1
+    churn: 0.4
+  - name: Smoke drift
+    height: 3
+    lift: 0
+    color: {r: 0.36, g: 0.34, b: 0.33, a: 1}
+    density: 1.4
+    softness: 0.55
+    falloff: 0.35
+    glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+    glowStrength: 0
+    groundLight: 0
+    noise: 0.85
+    noiseScale: 2.5
+    speed: 1.2
+    direction: 45
+    rise: 0.4
+    churn: 0.6
+  - name: Lava steam
+    height: 3
+    lift: -0.2
+    color: {r: 0.92, g: 0.78, b: 0.68, a: 1}
+    density: 0.8
+    softness: 0.55
+    falloff: 0.5
+    glowColor: {r: 1, g: 0.45, b: 0.15, a: 1}
+    glowStrength: 2.5
+    groundLight: 5
+    noise: 0.8
+    noiseScale: 2
+    speed: 0.4
+    direction: 60
+    rise: 0.6
+    churn: 0.7
+  m_Initialised: 1
