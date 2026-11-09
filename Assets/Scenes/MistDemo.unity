@@ -294,6 +294,130 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &189105150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 189105151}
+  - component: {fileID: 189105152}
+  m_Layer: 0
+  m_Name: Preset - Violet haze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &189105151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189105150}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6, y: -0.2, z: 18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1024391359}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &189105152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189105150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
+  width: 5
+  height: 2.5
+  depth: 5
+  color: {r: 0.75, g: 0.58, b: 1, a: 1}
+  density: 0.7
+  softness: 0.6
+  falloff: 0.55
+  glowColor: {r: 0.7, g: 0.42, b: 1, a: 1}
+  glowStrength: 2
+  groundLight: 3
+  noise: 0.65
+  noiseScale: 3
+  speed: 0.35
+  direction: 60
+  rise: 0.1
+  churn: 0.4
+  hidden: 0
+  seed: 1541491128
+--- !u!1 &380808608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380808609}
+  - component: {fileID: 380808610}
+  m_Layer: 0
+  m_Name: Preset - Lava steam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380808609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380808608}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18, y: -0.2, z: 18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1024391359}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &380808610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380808608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
+  width: 5
+  height: 3
+  depth: 5
+  color: {r: 0.92, g: 0.78, b: 0.68, a: 1}
+  density: 0.8
+  softness: 0.55
+  falloff: 0.5
+  glowColor: {r: 1, g: 0.45, b: 0.15, a: 1}
+  glowStrength: 2.5
+  groundLight: 5
+  noise: 0.8
+  noiseScale: 2
+  speed: 0.4
+  direction: 60
+  rise: 0.6
+  churn: 0.7
+  hidden: 0
+  seed: 2012455248
 --- !u!1 &412738572
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +927,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1024391358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1024391359}
+  m_Layer: 0
+  m_Name: Preset Row
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1024391359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024391358}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1180764321}
+  - {fileID: 1629236495}
+  - {fileID: 1117268742}
+  - {fileID: 1094992161}
+  - {fileID: 189105151}
+  - {fileID: 1118581090}
+  - {fileID: 380808609}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1041221120
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,6 +1092,254 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1094992160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1094992161}
+  - component: {fileID: 1094992162}
+  m_Layer: 0
+  m_Name: Preset - Toxic glow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1094992161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094992160}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.3, z: 18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1024391359}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1094992162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094992160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
+  width: 5
+  height: 1.8
+  depth: 5
+  color: {r: 0.45, g: 0.95, b: 0.35, a: 1}
+  density: 0.9
+  softness: 0.5
+  falloff: 0.6
+  glowColor: {r: 0.35, g: 1, b: 0.25, a: 1}
+  glowStrength: 3
+  groundLight: 4
+  noise: 0.8
+  noiseScale: 2
+  speed: 0.6
+  direction: 60
+  rise: 0.15
+  churn: 0.8
+  hidden: 0
+  seed: 1086268113
+--- !u!1 &1117268741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117268742}
+  - component: {fileID: 1117268743}
+  m_Layer: 0
+  m_Name: Preset - Swamp fog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1117268742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117268741}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6, y: -0.4, z: 18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1024391359}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1117268743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117268741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
+  width: 5
+  height: 1.2
+  depth: 5
+  color: {r: 0.62, g: 0.74, b: 0.55, a: 1}
+  density: 1.2
+  softness: 0.5
+  falloff: 0.75
+  glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+  glowStrength: 0
+  groundLight: 0
+  noise: 0.75
+  noiseScale: 2
+  speed: 0.2
+  direction: 60
+  rise: 0.03
+  churn: 0.5
+  hidden: 0
+  seed: 2139600340
+--- !u!1 &1118581089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1118581090}
+  - component: {fileID: 1118581091}
+  m_Layer: 0
+  m_Name: Preset - Smoke drift
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1118581090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118581089}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12, y: -4.9960035e-17, z: 18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1024391359}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1118581091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118581089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
+  width: 5
+  height: 3
+  depth: 5
+  color: {r: 0.36, g: 0.34, b: 0.33, a: 1}
+  density: 1.4
+  softness: 0.55
+  falloff: 0.35
+  glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+  glowStrength: 0
+  groundLight: 0
+  noise: 0.85
+  noiseScale: 2.5
+  speed: 1.2
+  direction: 45
+  rise: 0.4
+  churn: 0.6
+  hidden: 0
+  seed: 1832682126
+--- !u!1 &1180764320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1180764321}
+  - component: {fileID: 1180764322}
+  m_Layer: 0
+  m_Name: Preset - Morning mist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1180764321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180764320}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18, y: -0.3, z: 18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1024391359}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1180764322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180764320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
+  width: 5
+  height: 1.5
+  depth: 5
+  color: {r: 0.92, g: 0.95, b: 1, a: 1}
+  density: 0.45
+  softness: 0.6
+  falloff: 0.7
+  glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+  glowStrength: 0
+  groundLight: 0
+  noise: 0.6
+  noiseScale: 3
+  speed: 0.3
+  direction: 60
+  rise: 0.02
+  churn: 0.2
+  hidden: 0
+  seed: 1886878426
 --- !u!1 &1223333615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,6 +1453,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1629236494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629236495}
+  - component: {fileID: 1629236496}
+  m_Layer: 0
+  m_Name: Preset - Fog bank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1629236495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629236494}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12, y: -0.3, z: 18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1024391359}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1629236496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629236494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
+  width: 5
+  height: 4
+  depth: 5
+  color: {r: 0.86, g: 0.88, b: 0.9, a: 1}
+  density: 2.2
+  softness: 0.65
+  falloff: 0.4
+  glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+  glowStrength: 0
+  groundLight: 0
+  noise: 0.5
+  noiseScale: 5
+  speed: 0.25
+  direction: 60
+  rise: 0
+  churn: 0.15
+  hidden: 0
+  seed: 1360559555
 --- !u!1 &1719223202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,21 +1545,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
   width: 7
-  height: 1.8
+  height: 2
   depth: 6
-  color: {r: 0.45, g: 0.95, b: 0.35, a: 1}
-  density: 0.9
-  softness: 0.5
+  color: {r: 0.85, g: 0.9, b: 1, a: 1}
+  density: 0.6
+  softness: 0.45
   falloff: 0.6
-  glowColor: {r: 0.35, g: 1, b: 0.25, a: 1}
-  glowStrength: 3
-  groundLight: 4
-  noise: 0.8
-  noiseScale: 2
-  speed: 0.6
+  glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
+  glowStrength: 0
+  groundLight: 0
+  noise: 0.65
+  noiseScale: 2.5
+  speed: 0.5
   direction: 60
-  rise: 0.15
-  churn: 0.8
+  rise: 0.05
+  churn: 0.3
   hidden: 0
   seed: 915563391
 --- !u!4 &1719223204
@@ -1699,8 +2171,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2137789251}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08618842, y: -0.2494311, z: 0.022294162, w: 0.96429175}
-  m_LocalPosition: {x: 6.1, y: 2.5500002, z: -7.5}
+  m_LocalRotation: {x: 0.1597657, y: -0.03285001, z: 0.0053196196, w: 0.9865939}
+  m_LocalPosition: {x: 3, y: 5.5, z: -14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1726,3 +2198,4 @@ SceneRoots:
   - {fileID: 35680763}
   - {fileID: 1010588922}
   - {fileID: 1719223204}
+  - {fileID: 1024391359}
