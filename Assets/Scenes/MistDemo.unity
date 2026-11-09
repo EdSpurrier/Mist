@@ -447,11 +447,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfb3ebe04305c2441a69e99913a0d8bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SlaydGames.Mist::SlaydGames.Mist.MistVolume
-  width: 8
-  height: 2
-  depth: 8
-  color: {r: 0.85, g: 0.9, b: 1, a: 1}
-  density: 0.6
+  width: 44.8
+  height: 16
+  depth: 10.091686
+  color: {r: 1, g: 1, b: 1, a: 1}
+  density: 4
   softness: 0.45
   falloff: 0.6
   glowColor: {r: 0.4, g: 0.8, b: 1, a: 1}
@@ -473,8 +473,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412738572}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
+  m_LocalRotation: {x: 0, y: 0.97314954, z: 0, w: -0.23017386}
+  m_LocalPosition: {x: 0.89919233, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2053,6 +2053,7 @@ GameObject:
   - component: {fileID: 2137789254}
   - component: {fileID: 2137789253}
   - component: {fileID: 2137789252}
+  - component: {fileID: 2137789256}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2178,6 +2179,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137789256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137789251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb9f68a3a5593e4eaea19511b2616b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlyCamera
+  speed: 6
+  sprintMultiplier: 3
+  lookSensitivity: 0.12
+  holdRightMouseToLook: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
