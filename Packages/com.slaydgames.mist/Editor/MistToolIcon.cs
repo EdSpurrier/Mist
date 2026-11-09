@@ -1,15 +1,25 @@
+using UnityEditor;
 using UnityEngine;
 
 namespace SlaydGames.Mist.Editor
 {
-    /// <summary>A small cloud icon for the Mist tool, drawn in code so the package needs no texture asset.</summary>
+    /// <summary>The Mist tool's toolbar icon: the package's PNG, or a cloud drawn in code if the asset is missing.</summary>
     static class MistToolIcon
     {
+        public const string AssetPath = "Packages/com.slaydgames.mist/Editor/Icons/MistTool.png";
+
         static Texture2D s_Icon;
 
         public static Texture2D Get()
         {
             if (s_Icon != null) return s_Icon;
+            s_Icon = AssetDatabase.LoadAssetAtPath<Texture2D>(AssetPath);
+            if (s_Icon == null) s_Icon = Draw();
+            return s_Icon;
+        }
+
+        static Texture2D Draw()
+        {
             const int n = 32;
             var tex = new Texture2D(n, n, TextureFormat.RGBA32, false) { hideFlags = HideFlags.HideAndDontSave, filterMode = FilterMode.Bilinear, name = "Mist Tool Icon" };
             var px = new Color32[n * n];
@@ -28,12 +38,10 @@ namespace SlaydGames.Mist.Editor
                     }
                     if (y < 10) a = Mathf.Max(a, x >= 4 && x <= 28 ? Mathf.Clamp01(10f - y) : 0f);
                 }
-                byte v = (byte)Mathf.RoundToInt(a * 255f);
-                px[y * n + x] = new Color32(225, 235, 255, v);
+                px[y * n + x] = new Color32(225, 235, 255, (byte)Mathf.RoundToInt(a * 255f));
             }
             tex.SetPixels32(px);
             tex.Apply(false, true);
-            s_Icon = tex;
             return tex;
         }
     }

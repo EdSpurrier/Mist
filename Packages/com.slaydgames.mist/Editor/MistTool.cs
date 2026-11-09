@@ -11,6 +11,7 @@ namespace SlaydGames.Mist.Editor
     /// or Size handles. Undo covers everything, one drag being one step.
     /// </summary>
     [EditorTool("Mist Volumes")]
+    [Icon(MistToolIcon.AssetPath)]
     public sealed class MistTool : EditorTool
     {
         static readonly int s_Hint = "SlaydGames.MistTool".GetHashCode();
