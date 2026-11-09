@@ -3,9 +3,29 @@
 Placeable boxes of noisy, drifting, lit volumetric mist, with Scene view tools to place and tune them.
 A port of the GridFall engine's mist to Unity 6 URP (render graph).
 
-## Setup
+## Installing into your own project
 
-1. Add the package (it is embedded in this project under `Packages/com.slaydgames.mist`).
+Requirements: Unity 6000.0 or newer with the Universal Render Pipeline (render graph on, which is the default).
+
+**From the Git URL** (needs read access to this repository, and Git installed and signed in on your machine):
+
+1. Window > Package Manager, the **+** button, **Install package from git URL...**
+2. Paste:
+   ```
+   https://github.com/EdSpurrier/Mist.git?path=/Packages/com.slaydgames.mist#v0.1.0
+   ```
+   Drop `#v0.1.0` to follow the latest commit on `main` instead of the release.
+
+**From the tarball** (no Git needed):
+
+1. Download `com.slaydgames.mist-0.1.0.tgz` from the repository's Releases page.
+2. Window > Package Manager, the **+** button, **Install package from tarball...**, pick the file.
+
+Either way, finish with **Tools > Mist > Add Mist To URP Renderers**, then **Tools > Mist > Mist Window**.
+
+## Setup in this repository
+
+1. The package is embedded in this project under `Packages/com.slaydgames.mist`.
 2. **Tools > Mist > Add Mist To URP Renderers** adds the `Mist` renderer feature to every URP renderer
    in use. The renderer-wide settings (steps, self shadow, lights, ground shade, sun, ambient,
    resolution scale, temporal, blur passes) live on that feature.
